@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    
+    <title>Ester Cardoso Toja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Ester Cardoso Toja">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projeto">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="name-logo">
+                <img src="images/name_logo.PNG" alt="Ester Cardoso Toja">
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projeto">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Olá, seja bem-vindo!<span>.</span></h1>
+                        <p> 
+                            Eu sou a Ester, apaixonado por tecnologia, e este é o meu portifólio. 
+                            Aqui você encontrará um pouco do meu trabalho e da minha carreira, 
+                            fruto de muita dedicação, criatividade e muita vontade de aprender. 
+                        </p>
+
+                        <div class="btn-contato">
+                            <button id="openPopupBtn">Entre em contato</button>
+                        </div>
+                    </div>
+
+                    <div id="contactPopup" class="popup">
+                        <div id="closePopupBtn" class="popup-content" >
+                            <div class="btn-social">
+                                <h2> Entre em contato:</h2>
+                                <p> ester.toja@hotmail.com</p>
+                                <a href="https://br.linkedin.com/in/ester-cardoso-toja-692a6566"><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href="https://github.com/estercardosotoja"><button><i class="bi bi-github"></i></button></a>
+                                <a href="https://t.me/estertoja"><button><i class="bi bi-telegram"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="images/pessoa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="especiliadades" id="formacao">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>FORMAÇÕES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-mortarboard"></i>
+                        <h3>Bacharel</h3>
+                        <p>Universidade Luterana do Brasil</p>
+                        <p>Ciência da Computação</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-mortarboard-fill"></i>
+                        <h3>Pós Gradução</h3>
+                        <p>UniRitter</p>
+                        <p>Inteligência Artificial e Ciência de Dados</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-mortarboard"></i>
+                        <h3>Bacharel</h3>
+                        <p>Universidade Luterana do Brasil</p>
+                        <p>Psicológia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <div class="interface" id="sobre">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/foto.jpg" alt="">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU ESTER TOJA.</span></h2>
+                        <p>
+                            Sou uma pessoa criativa e curiosa, apaixonada por explorar e conhecer coisas novas. 
+                            No meu tempo livre, gosto de tocar instrumentos como: vioão, contra-baixo, teclado e bateria.
+                            Criar projetos que me desafiem e estimulem minha imaginação, além de dedicar algumas horas à leitura e a assistir filmes e séries que me inspiram ou me fazem refletir.
+                        </p>
+                        <p>
+                            Também adoro me dedicar a serviços manuais, como plantar, realizar manutenção no meu Corsa 99. 
+                            Essas atividades não apenas me ajudam a relaxar, mas também me conectam com o lado prático e criativo do cotidiano.
+                        </p>
+                        <p>  Viajar é outra das minhas maiores paixões. 
+                            Amo conhecer novos lugares, descobrir culturas diferentes e vivenciar experiências únicas que ampliam minha visão de mundo. 
+                        </p>
+                        <p>
+                            Mas minha maior paixão é minha família que sempre está comigo e me apoiando em todos os momento. 
+                            Eles são o maior estimulo para todos os dias superar os desafios!
+                        </p>
+
+                        <div class="btn-social">
+                            <a href="https://br.linkedin.com/in/ester-cardoso-toja-692a6566"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/estercardosotoja"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://t.me/estertoja"><button><i class="bi bi-telegram"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="projeto">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/imagem1.jpeg);" onclick="girarImagem(this)">
+                        <div class="overlay">Testplan</div>
+                        <div class="overlay show">
+                            <a href="https://github.com/estercardosotoja/test_plan">
+                                <div class="txt-overlay">
+                                    <h3> Test Plan</h3>
+                                    <p>
+                                        O Test Plan é um protótipo de uma ferramenta destinada à geração de Planos de Teste de APIs. 
+                                        Seu propósito é auxiliar profissionais de qualidade em suas atividades diárias.
+                                    </p>
+                                    <p> 
+                                        O objetivo principal dessa ferramenta é ajudar o usuário a criar testes de API de acordo com as 
+                                        especificações, reduzindo o tempo necessário para elaborar o plano de testes de API. 
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem2.jpeg);" onclick="girarImagem(this)">
+                        <div class="overlay">Página Web</div>
+                        <div class="overlay show">
+                            <a href="https://github.com/estercardosotoja/faculdade_idw">
+                                <div class="txt-overlay">
+                                    <h3>Página Web</h3>
+                                    <p>
+                                        Conteúdo e exercício realizados durante as aulas de Introdução ao Desenvolvimento Web.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logotipo Agência BRN">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://br.linkedin.com/in/ester-cardoso-toja-692a6566"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/estercardosotoja"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://t.me/estertoja"><button><i class="bi bi-telegram"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:ester.toja@hotmail.com">ester.toja@hotmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
